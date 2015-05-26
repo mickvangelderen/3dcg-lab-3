@@ -26,3 +26,10 @@
 *.exe
 *.out
 *.app
+
+# Visual Studio 2013
+*.opensdf
+*.sdf
+*.suo
+Release/
+Debug/
