@@ -327,7 +327,7 @@ void initTexture()
 	Texture[1]=0;
 	Texture[2]=0;
 
-	PPMImage image("checker.ppm");
+	PPMImage image("..\\..\\textures\\checker.ppm");
 	glGenTextures(1, &Texture[0]);
 	glBindTexture(GL_TEXTURE_2D, Texture[0]);
 	gluBuild2DMipmaps(GL_TEXTURE_2D, GL_RGB, image.sizeX, image.sizeY, 
